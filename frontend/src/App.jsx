@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header"
-import Countdown from "./components/countdown";
 import Footer from "./components/Footer";
+import Countdown from "./components/Countdown";
 
 function App() {
   return (
