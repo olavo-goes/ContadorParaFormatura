@@ -10,8 +10,7 @@ function Footer({ title, subtitle, backgroundColor = "#282c34", color = "white" 
 
   return (
     <footer style={footerStyle}>
-      <h1>{title}</h1>
-      {subtitle && <p>{subtitle}</p>}
+      <p>{title}</p>
     </footer>
   );
 }
